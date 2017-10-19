@@ -1,0 +1,101 @@
+
+E:\>cd Coding_Dojo
+
+E:\Coding_Dojo>md python,MEAN,Ruby,ios,netCore
+
+E:\Coding_Dojo>dir
+ Volume in drive E is New Volume
+ Volume Serial Number is D815-5F5D
+
+ Directory of E:\Coding_Dojo
+
+10/18/2017  10:36 PM    <DIR>          .
+10/18/2017  10:36 PM    <DIR>          ..
+10/18/2017  10:31 PM             1,080 Cmd.txt
+10/18/2017  06:29 PM    <DIR>          HTML
+10/18/2017  10:36 PM    <DIR>          ios
+10/18/2017  10:36 PM    <DIR>          MEAN
+10/18/2017  10:36 PM    <DIR>          netCore
+10/18/2017  10:36 PM    <DIR>          python
+10/18/2017  10:36 PM    <DIR>          Ruby
+               1 File(s)          1,080 bytes
+               8 Dir(s)  275,254,210,560 bytes free
+
+E:\Coding_Dojo>copy null about.txt
+The system cannot find the file specified.
+
+E:\Coding_Dojo>dir
+ Volume in drive E is New Volume
+ Volume Serial Number is D815-5F5D
+
+ Directory of E:\Coding_Dojo
+
+10/18/2017  10:36 PM    <DIR>          .
+10/18/2017  10:36 PM    <DIR>          ..
+10/18/2017  10:31 PM             1,080 Cmd.txt
+10/18/2017  06:29 PM    <DIR>          HTML
+10/18/2017  10:36 PM    <DIR>          ios
+10/18/2017  10:36 PM    <DIR>          MEAN
+10/18/2017  10:36 PM    <DIR>          netCore
+10/18/2017  10:36 PM    <DIR>          python
+10/18/2017  10:36 PM    <DIR>          Ruby
+               1 File(s)          1,080 bytes
+               8 Dir(s)  275,254,210,560 bytes free
+
+E:\Coding_Dojo>copy NUL  about.txt
+        1 file(s) copied.
+
+E:\Coding_Dojo>dir
+ Volume in drive E is New Volume
+ Volume Serial Number is D815-5F5D
+
+ Directory of E:\Coding_Dojo
+
+10/18/2017  10:38 PM    <DIR>          .
+10/18/2017  10:38 PM    <DIR>          ..
+10/18/2017  10:38 PM                 0 about.txt
+10/18/2017  10:31 PM             1,080 Cmd.txt
+10/18/2017  06:29 PM    <DIR>          HTML
+10/18/2017  10:36 PM    <DIR>          ios
+10/18/2017  10:36 PM    <DIR>          MEAN
+10/18/2017  10:36 PM    <DIR>          netCore
+10/18/2017  10:36 PM    <DIR>          python
+10/18/2017  10:36 PM    <DIR>          Ruby
+               2 File(s)          1,080 bytes
+               8 Dir(s)  275,254,210,560 bytes free
+
+E:\Coding_Dojo>cd python
+
+E:\Coding_Dojo\python>md git,html,css,javascript
+
+E:\Coding_Dojo\python>copy NUL  about.txt
+        1 file(s) copied.
+
+E:\Coding_Dojo\python>cd html
+
+E:\Coding_Dojo\python\html>copy NUL  indentation.html
+        1 file(s) copied.
+
+E:\Coding_Dojo\python\html>cd ..
+
+E:\Coding_Dojo\python>cd ..
+
+E:\Coding_Dojo>dir /b /s
+E:\Coding_Dojo\about.txt
+E:\Coding_Dojo\Cmd.txt
+E:\Coding_Dojo\HTML
+E:\Coding_Dojo\ios
+E:\Coding_Dojo\MEAN
+E:\Coding_Dojo\netCore
+E:\Coding_Dojo\python
+E:\Coding_Dojo\Ruby
+E:\Coding_Dojo\HTML\hello_world.html
+E:\Coding_Dojo\HTML\pratice.html
+E:\Coding_Dojo\python\about.txt
+E:\Coding_Dojo\python\css
+E:\Coding_Dojo\python\git
+E:\Coding_Dojo\python\html
+E:\Coding_Dojo\python\javascript
+E:\Coding_Dojo\python\html\indentation.html
+
+E:\Coding_Dojo>

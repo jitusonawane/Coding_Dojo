@@ -1,0 +1,34 @@
+1)cmd
+2)c:\user\desktop
+
+ Open Terminal 
+  cmd
+ Navigate to your Desktop 
+ -->> C:\user\desktop
+ Create a new directory, call it 'test'  
+  md test
+Make files called index.html, styles.css, commands.txt inside the test directory 
+ copy NUL index.html, styles.css commands.txt
+
+Make a copy of index.html and call it index_2.html 
+ copy index.html index_2.html
+
+ In the 'test' directory, remove the 'styles.css'
+ del styles.css
+
+ file  Navigate back to your desktop and make another directory, call it 'destination' 
+  md destination 
+ Move the index_2.html file from 'test' to the 'destination' directory 
+move .\index_2.html ..\destination
+
+ Now, check and see what files are in the 'test' and 'destination' directories 
+ C:\Users\jitus\test                C:\Users\jitus\destination
+					test
+
+
+ Delete the 'destination' directory  
+ del destination
+Write the commands you used to do the above and save them in commands.txt. 
+
+Then upload it below!  
+Spend 10 minutes researching some other terminal commands and keep them in mind for the future!

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Registartion Form</title>
+        <h1>My Registartion Form</h1>
+    </head> 
+    <body>
+        <ul>   
+            <li> 
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name">
+        </li>
+        <li>
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name">
+        </li>
+        <li>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+        </li>
+        <li>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                
+        </li>
+        <li>
+            <label for="Birthday">Birthday</label>
+            <input type="date" id="Birthday" name="Birthday">
+        </li>
+        <li>
+                <label for="pw_confirm">Password Confirmation:</label>
+                <input type="password" id="pw_confirm" name="password_confirmation">
+        </li>
+        </ul>  
+                 <form action="process.php" method="post">
+                    
+                   
+                    <p>Select your gender:</p>
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                   
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" value="female">
+
+                    <label for="other">other</label>
+                    <input type="radio" name="gender" value="other">
+                   
+                                       
+                    <p>A short description about yourself:</p>
+                    <textarea name="description"></textarea>
+                    <br>
+                    <label for="Favorite Language">Favorite Language:</label>
+                    
+                    <select name="Language">
+                            <option value="Java Script">Java Script</option>
+                            <option value="Java">Java</option>
+                            <option value="Php">Php</option>
+                            <option value="Python">Python</option>
+                        </select>
+                      <br>
+
+                   <input type="submit" value="Submit">
+                </form>
+                
+    </body>
+</html>
